@@ -19,13 +19,13 @@ Sends your selected image to `LLaVA` (running locally) and prints a one-sentence
 ## Prerequisites
 * `.NET 8 SDK` installed.
 * `Ollama` set up on your machine.
-* A C# IDE (Visual Studio, Rider, VSCode—your pick!).
+* A C# IDE (Visual Studio, Rider, VSCode. Your pick!).
 
 ## Getting Started
 
 Follow these steps to get the app running on your system.
 
-1. Install `Ollama` and `LLaVA`
+### 1. Install `Ollama` and `LLaVA`
 
 Download `Ollama` from [ollama.com](https://ollama.com) and install it (Windows/Mac installer or Linux script: `curl -fsSL https://ollama.com/install.sh | sh`).
 
@@ -45,7 +45,7 @@ Keep this terminal open, it hosts `LLaVA` at `http://localhost:11434`.
 
 **Note:** Want better captions? Try `ollama pull llava` for the full model (needs more RAM/GPU power).
 
-2. Clone and Set Up the Project
+### 2. Clone and Set Up the Project
 
 Clone this repo:
 
@@ -74,13 +74,9 @@ Add your own if you like. Ensure they’re `.jpg` or `.png`.
 
 In your IDE, set their “Copy to Output Directory” to “Copy if newer” so they land in `bin/Debug/net8.0/images`.
 
-3. Run the App
+### 3. Run the App
 
-Build and run the project:
-
-In Visual Studio: Hit F5.
-
-In terminal: dotnet run.
+Build and run the project.
 
 You’ll see something like:
 
@@ -97,7 +93,7 @@ Choose an image to caption:
 Enter the number of your choice:
 ```
 
-Type a number (e.g., 1), and get a caption like:
+Type a number (e.g., `4`), and get a caption like:
 
 ```text
 Caption: A large, woolly alpaca standing on a grass field under a blue sky with clouds. 
