@@ -1,12 +1,16 @@
 # ImageAICaptioner
 
-Welcome to `ImageAICaptioner`. A simple C# console app that uses `LLaVA` (via `Ollama`) to generate captions for images! 
+Welcome to `ImageAICaptioner`. 
+
+A simple C# console app that uses `LLaVA` (via `Ollama`) to generate captions for images! 
 
 Built with `.NET 8` and powered by `Microsoft.Extensions.AI` (in preview), this project preloads images from a folder, lets you pick one, and spits out a caption. 
 
 All with dependency injection for a clean, modern twist. 
 
 Perfect for C# devs curious about local AI tools.
+
+It’s a companion to my [post](https://www.ronnydelgado.com/my-blog/ai-building-image-caption-ollama-csharp), where I dive deeper.
 
 ## What It Does
 
